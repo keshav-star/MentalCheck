@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 68%;
+    padding: 2rem 0;
+}
+
+.container span,
+p {
+    background-color: rgba(56, 53, 53, 0.7);
+    padding: 9px;
+    margin: 20px 0;
+    border-radius: 25px;
+    color: white;
+}
+
+.port {
+    margin: 20px 0;
+}
+
+.port a {
+    color: white; 
+    background-color: rgb(3, 113, 3, 0.9);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.port a:hover {
+    background-color: rgb(3, 113, 3, 0.6);
+    color: white;
+
+}
+
+section {
+    scrollbar-width: none;
+    overflow: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-items: center;
+}
+
+.card {
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 1rem ;
+    background-color: rgba(23, 86, 158, 0.4);
+    padding: 1rem;
+    width: 12rem;
+    height: 15rem;
+    text-align: center;
+    border-radius: 3%;
+}
+
+.card img {
+    opacity: 0.8;
+}
+
+.card a {
+    position: absolute;
+    bottom: 8px;
+    padding: 7px;
+    color: white;
+    background-color: rgb(51, 47, 47, 0.4);
+
+}
+
+.card a:hover {
+    animation: rise 0.5s linear 1 forwards;
+}
+
+@keyframes rise {
+
+    0%{
+        display: none;
+    }
+
+    100% {
+        /* color: white; */
+        background-color: rgb(51, 47, 47, 0.8);
+    }
+}
+@media screen and (max-width:370px) {
+    section{
+        display: block;
+    }
+    .container span{
+        font-size: 12px;
+    }
+}
