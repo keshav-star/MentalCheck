@@ -1,6 +1,6 @@
 {
-  "homepage": "http://keshav-star.github.io/psycchek",
-  "name": "psyc_chek",
+  "homepage": "http://keshav-star.github.io/MentalCheck",
+  "name": "mental_check",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
