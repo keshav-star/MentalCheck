@@ -1,2 +1,0 @@
-(this.webpackJsonppsyc_chek=this.webpackJsonppsyc_chek||[]).push([[4],{327:function(s,c,e){"use strict";e.r(c),c.default=e.p+"static/media/incomingmessage.bcd6630e.wav"}}]);
-//# sourceMappingURL=4.6bda4b42.chunk.js.map
